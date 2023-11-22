@@ -28,16 +28,16 @@ public class Calculadora {
         panel.add(textNum2);
 
         JButton somaButton = new JButton("+");
-        somaButton.setBounds(100, 80, 40, 25);
+        somaButton.setBounds(100, 80, 45, 25);
         panel.add(somaButton);
         JButton diferencaButton = new JButton("-");
-        diferencaButton.setBounds(160, 80, 40, 25);
+        diferencaButton.setBounds(160, 80, 45, 25);
         panel.add(diferencaButton);
         JButton multiplicaButton = new JButton("*");
-        multiplicaButton.setBounds(220, 80, 40, 25);
+        multiplicaButton.setBounds(220, 80, 45, 25);
         panel.add(multiplicaButton);
         JButton divideButton = new JButton("/");
-        divideButton.setBounds(280, 80, 40, 25);
+        divideButton.setBounds(280, 80, 45, 25);
         panel.add(divideButton);
 
         JLabel resultadoLabel = new JLabel("");
